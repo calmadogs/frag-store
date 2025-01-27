@@ -1,0 +1,344 @@
+/*@keyframes animacao {
+    
+    from {background-color: black;}
+    to {background-color: green;}
+
+}*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'oswald';
+  
+}
+ 
+/* apagar */
+body{
+    background-color:#1d344d ;
+}
+
+.promocao{
+    height: 90px;
+    width:100%;
+    padding-top: 15px;
+    color: white;   
+    background-image: linear-gradient(360deg, black, #dedcdc);
+}
+
+.promocao > h2{
+    font-family:'playfair';
+    padding: 3px;
+    border-width: 3px;
+    border-style:solid;
+    text-align: center;
+    margin-left: 23px;
+    margin-bottom: 13px;
+    width: 95%;
+    
+}
+/* linha de opções */
+.menu {  
+    width: 100%;
+    height: 25px;
+    display: flex;    
+}
+
+.menu-opcao{
+    margin-top: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu-opcao a {
+    text-decoration:none; 
+    color: white;
+    font-size: 25px;
+    margin:50px;
+    font-family: 'prayfair';
+    font-weight: 530;
+    text-align: center;   
+    padding: 2px 6px;
+    border-radius: 5px;
+    
+}
+
+.menu-opcao a:hover{ 
+    transition-duration: .5s;
+    background-color: #848383;
+}
+
+
+/* FRONT (camisa cinza) */
+
+.front{
+    width: 100%; 
+    display: block;
+    background-color: black;
+
+}
+
+
+
+.front-foto{
+    background-image: url(/image/camisa_cinza2.JPG);
+    background-size:cover;
+    height:1050px;   
+    background-repeat: no-repeat;
+    margin: 0px 20px 0px 20px;
+
+}
+
+.front-texto h1{
+    color: black;
+    text-align: center;
+    font-family: 'prayfair';
+    font-size: 110px;
+    padding-top: 640px;
+    text-shadow: 6px 6px 5px white;
+        
+}
+
+/*------- PRODUTOS ----------- */
+
+
+section.produtos{
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:15px 254px;
+    background-image: linear-gradient(180deg, black, #dedcdc);
+}
+
+
+.container{
+    overflow:hidden;  
+}
+
+.container-pro{
+    float: right;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 3px;
+    border-radius: 10px;
+    margin-right: 2%;
+    box-shadow: 3px 0 10px #00000099
+}
+
+.container-pro img{
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.container-pro a{
+    color: rgb(0, 0, 0);
+    text-decoration: none; 
+    
+}
+
+.container-pro a:hover{ 
+    padding: 3px;
+    color: white;
+    background-color: black;
+    
+}
+
+.container-pro p{
+    margin-bottom: 10px;
+    color: #4b5c92;
+    font-size: 17px;
+    padding-top: 5px ;
+    font-weight: 1000;
+}
+
+.slick-slide {
+    margin-left:27px;
+
+}
+
+
+/* SOBRE NOS */
+
+
+.nos h1{
+    margin-bottom: -5%;
+    font-size: 80px;
+    color: white;
+    text-align: center; 
+    background-image: linear-gradient(180deg, #dedcdc , #1d344d);        
+}
+
+.sobre{ 
+    width: 1300px;
+    background-image: url(/image/tiagolino.jpeg);
+    background-size: cover;
+    height: 1050px;
+    background-repeat: no-repeat;
+    margin: 28px 20px;   
+    border-radius: 10px 10px
+}
+
+.sobre-metade{
+    background-color: rgba(255, 255, 255, 0.384);
+    width: 50%;
+    height: 1050px;
+    border-radius: 10px 0 0 10px
+}   
+
+.sobre-texto h1{
+    font-size: 85px;
+    font-family: 'prayfair';
+    padding-left: 122px;
+    padding-top: 25%;
+    color: white;
+    margin-bottom: -3%;
+    
+}
+
+.sobre-texto p{
+    font-size: 30px;
+    font-family: 'prayfair';
+    padding-left: 53%;  
+    color: white;
+}
+
+.sobre-texto h2{
+    font-size: 25px;
+    height: 100%;
+    margin: 200px 10%;
+    font-family: 'prayfair';
+    background-color: rgba(0, 0, 0, 0.432);
+    text-align: justify;
+    text-indent: 50px;
+    padding: 25px;
+    color: white;
+}
+
+/*---------CONTATO---------------*/
+
+.contato{
+    background-image: linear-gradient(180deg, #1d344d, #dedcdc);
+    padding-bottom: 10px;
+}
+
+.contato-fundo{
+    background-image: url(/image/conic.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+
+}
+
+.contato-texto{
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+
+.contato-texto p{
+ 
+    font-size: 70px;
+    font-weight: 500;
+    background: rgba(255, 254, 253, 0.692);
+    text-align: right;
+    padding-right: 165px;
+    border-radius: 10px;
+    margin: 0% 30% 2% 2%;
+}
+
+.contato-texto h1{
+    
+    font-size: 18px;
+    padding: 4px 50px 5px 50px;
+    color: rgb(0, 0, 0);
+    width: 26%;
+    border-radius: 10px;
+    margin-left: 58%;
+    margin-top: 8%;
+    background: rgba(255, 254, 253, 0.582);
+}
+
+
+.msg-nome {
+    font-size: 35px;
+    color: white;
+   
+}
+
+.msg-assunto {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.msg-escreva {
+    font-size: 35px;
+    color: white;
+    
+  
+}
+
+
+/*-----------------FOOTER------------------------*/
+
+.pe{
+    background-color: #dddcdc;
+    display: flex;
+    padding-left: 20%;
+    border: 3px solid black;
+    height: 30px;
+    
+    
+}
+
+.pe a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px 10px 0px 10px;
+    color: black;
+    
+}
+
+.pe h1{
+    margin-left: 15%;
+    font-size: 20px;
+    margin: auto;
+}
+
+.teste{
+    background-color: #dddcdc;
+    padding: 5px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

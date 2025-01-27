@@ -1,0 +1,8 @@
+configurações padrão 
+
+p{
+    margin: 15px 0px;
+    text-align: justify; /* -> ajusta toda a margem do texto. */
+    text-indent: 30px; /* -> ajusta o inicio do texto definindo o paragrafo. */
+    line-height: 2em; /* espaçamento entre linha de um texto */
+}
